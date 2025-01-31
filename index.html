@@ -36,10 +36,10 @@
 
 <body class="sora-font">
     <!-- This is Header Section -->
-    <Header class="md:container mx-auto bg[rgba(239, 235, 227, 1)]">
-        <nav>
+    <Header class="m-0 md:container md:mx-auto bg-[#EFEBE3]">
+        <nav class="bg-[EFEBE3]">
             <div class="navbar bg-base-100 justify-around">
-                <div class="flex">
+                <div class="flex" >
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
@@ -70,7 +70,7 @@
 
                     </ul>
                 </div>
-                <div class="gap-4 md:flex md:block">
+                <div class="gap-4 hidden md:block">
                     <button
                         class="btn btn-outline btn-success border-green-500 text-green-500 hover:bg-green-500 px-9 h-11">Login</button>
                     <a class="btn bg-green-500 text-white px-7 h-11">Register</a>
@@ -104,28 +104,28 @@
 
     </Header>
     <!-- This is Main Section -->
-    <main>
+    <main class="md:container md:mx-auto">
         <!-- Service Section -->
-     <Section>
-        <div>
-            <h1>Services</h1>
+     <Section class="mx-auto">
+        <div class="md:ml-32">
+            <h1 class="font-semibold text-4xl text-green-500">Services</h1>
          </div>
          <!-- Service Card Section -->
-         <div>
-            <div>
+         <div class=" mb-6 mt-10 md:grid grid-cols-3 gap-4 md:w-[1320px] h-[360px] md:mx-auto mt-10   gap-5">
+            <div class="bg-[#EFEBE3] mt-14 grid place-items-center text-center p-6 rounded-3xl">
                 <img src="c2-assets/service.png" alt="">
-                <h1>24/7 Services </h1>
+                <h1 class="font-semibold">24/7 Services </h1>
                 <p>Available 24/7 for reliable, fast, and hassle-free service anytime, anywhere</p>
             </div>
-            <div>
+            <div class="bg-[#EFEBE3] mt-14 grid place-items-center text-center p-6 rounded-3xl">
                 <img src="c2-assets/delivery.png" alt="">
-                <h1>Fast Delivery</h1>
+                <h1 class="font-semibold">Fast Delivery</h1>
                 <p>Fast and reliable delivery—get your essentials at your doorstep in no time!</p>
             </div>
-            <div>
+            <div class="bg-[#EFEBE3] mt-14 grid place-items-center text-center p-6 rounded-3xl">
                 <img src="c2-assets/healthy.png" alt="">
-                <h1>Healthy Products</h1>
-                <p>Fresh, natural, and healthy products for a better, happier you. Nutritious, organic, and fresh products for a healthier life</p>
+                <h1 class="font-semibold">Healthy Products</h1>
+                <p>Fresh, natural, and healthy products for a better, happier you. Nutritious & organic </p>
             </div>
     
          </div>
